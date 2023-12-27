@@ -83,11 +83,11 @@ if __name__ == "__main__":
 
     embed = {
         "title": "점수가 공개된 과목이 있습니다.",
-        "description": f"dap 시스템을 확인해주세요.\n해당 과목{result}",
+        "description": f"dap 시스템을 확인해주세요.\n공개된 과목{result}",
         }
 
     data = {
-        "content": "새로운 성적이 기입되었습니다",
+        "content": "새로운 성적이 기입되었습니다\ndap.deu.ac.kr",
         "username": "성적 알리미",
         "embeds": [
             embed
