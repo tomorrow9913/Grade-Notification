@@ -6,9 +6,7 @@ import sys
 import selenium
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-# selenium으로 키를 조작하기 위한 import
 from selenium.webdriver.common.keys import Keys
-# 페이지 로딩을 기다리는데에 사용할 time 모듈 import
 import time
 
 def login(driver, std_id, passwd):
