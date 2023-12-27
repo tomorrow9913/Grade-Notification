@@ -13,11 +13,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2
-      
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.7
     
     - name: Install python package # 파이썬 관련 패키지를 설치하고
       run: |        
